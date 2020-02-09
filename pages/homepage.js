@@ -38,11 +38,8 @@ let homepage=function()
         expect(output.getText()).toEqual(result);
      };
 
-     browser.sleep(2000);
-
-
-
+    
    
 };
 
-module.export=new homepage();
+module.exports=new homepage();
